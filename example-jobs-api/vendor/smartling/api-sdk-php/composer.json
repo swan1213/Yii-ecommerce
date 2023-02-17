@@ -1,0 +1,33 @@
+{
+  "name": "smartling/api-sdk-php",
+  "type": "library",
+  "description": "PHP library to communicate with SmartlingAPI",
+  "keywords": [
+    "smartling",
+    "i18n",
+    "internationalization",
+    "automated translation"
+  ],
+  "homepage": "https://www.smartling.com",
+  "license": "Apache",
+  "authors": [],
+  "require": {
+    "psr/log": "~1.0",
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartling\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smartling\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}

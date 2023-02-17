@@ -1,0 +1,29 @@
+#channel_store_accordion > div:nth-of-type(odd){
+    background: #f5f5f5;
+}
+
+.stock-manage-box .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stock-manage-box .row > div {
+    line-height: 30px;
+}
+
+.stock-view-value, .stock-view-percent {
+    display: inline-flex;
+}
+
+.stock-mange-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.stock-view-percent-hide {
+    display: none;
+}
+
+.store-variations-row {
+    font-size: 14px;
+}
