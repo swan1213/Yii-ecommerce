@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- smartling.translate_paths = data/localize/string -->
+<data>
+    <localize title="Menu">
+        <string name="name">Hello World</string>
+    </localize>
+</data>
+

@@ -1,0 +1,103 @@
+{
+  "name": "S86Agency/helloiamelliot",
+  "description": "Elliot Global Application",
+  "keywords": [
+    "yii2",
+    "framework",
+    "start",
+    "cms",
+    "application template",
+    "yii2 advanced",
+    "Elliot Global"
+  ],
+  "authors": [
+    {
+      "name": "Moses Pirogov",
+      "email": "m_pirogov@aol.com",
+      "role": "Enginner"
+    }
+  ],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/S86Agency/helloiamelliot/issues?state=open",
+    "source": "https://github.com/S86Agency/helloiamelliot"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "ext-intl": "*",
+    "yiisoft/yii2": "2.0.13.1",
+    "yiisoft/yii2-bootstrap": "^2.0.0",
+    "yiisoft/yii2-swiftmailer": "^2.0.0",
+    "yiisoft/yii2-authclient": "^2.0.0",
+    "yiisoft/yii2-jui": "^2.0.0",
+    "asofter/yii2-imperavi-redactor": "^0.0.3",
+    "mihaildev/yii2-elfinder": "^1.0",
+    "trntv/yii2-aceeditor": "^2.0",
+    "trntv/probe": "^0.2",
+    "trntv/yii2-file-kit": "^1.0.0",
+    "trntv/yii2-glide": "^1.0.0",
+    "trntv/yii2-datetime-widget": "^1.0.0",
+    "trntv/cheatsheet": "^0.1@dev",
+    "intervention/image": "^2.1",
+    "vlucas/phpdotenv": "^2.0",
+    "bower-asset/admin-lte": "^2.0",
+    "bower-asset/font-awesome": "^4.0",
+    "bower-asset/html5shiv": "^3.0",
+    "bower-asset/jquery-slimscroll": "^1.3",
+    "bower-asset/flot": "^0.8",
+    "symfony/process": "^3.0",
+    "guzzlehttp/guzzle": "^6.0",
+    "latik/taobao-sdk": "^0.1.0",
+    "clchangnet/aliexapi": "^1.1",
+    "automattic/woocommerce": "*",
+    "bigcommerce/api": "dev-master@dev",
+    "yiisoft/yii2-httpclient": "*",
+    "dungang/yii2-touchswipe": "dev-master",
+    "asinfotrack/yii2-chartwidgets": "dev-master",
+    "bburim/flot": "dev-master",
+    "devgroup/yii2-dropzone": "*",
+    "fedemotta/yii2-widget-datatables": "*",
+    "kartik-v/yii2-mpdf": "*",
+    "stripe/stripe-php": "^5.7",
+    "google/apiclient": "^2.2",
+    "square/connect": "^2.5",
+    "cheprasov/php-parallel": "^1.2",
+    "mpirogov/yii2-command-bus2": "^1.1",
+    "phpoffice/phpspreadsheet": "^1.0",
+    "mcs/amazon-mws": "^0.1.25"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "^2.0.0",
+    "yiisoft/yii2-gii": "^2.0.0",
+    "yiisoft/yii2-faker": "^2.0.0",
+    "codeception/codeception": "^2.3.0",
+    "codeception/verify": "^0.3.1",
+    "phpunit/phpunit": "~4"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests/"
+    }
+  },
+  "suggest": {
+    "trntv/yii2-debug-xhprof": "dev-master@dev"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "repositories": {
+        "bower-asset/eve": {
+          "type": "bower-vcs",
+          "url": "https://github.com/adobe-webplatform/eve.git"
+        }
+      }
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

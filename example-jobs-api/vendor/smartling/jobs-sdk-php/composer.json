@@ -1,0 +1,35 @@
+{
+  "name": "smartling/jobs-sdk-php",
+  "type": "library",
+  "description": "PHP library to communicate with Smartling JobsAPIv3",
+  "keywords": [
+    "smartling",
+    "i18n",
+    "internationalization",
+    "automated translation"
+  ],
+  "homepage": "https://www.smartling.com",
+  "license": "Apache",
+  "authors": [],
+  "require": {
+    "smartling/api-sdk-php": "dev-2.0.0-g5",
+    "psr/log": "~1.0",
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartling\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Smartling\\Tests\\Unit\\": "tests/unit",
+      "Smartling\\Tests\\Functional\\": "tests/functional"
+    }
+  },
+  "minimum-stability": "dev"
+}

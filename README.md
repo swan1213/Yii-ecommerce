@@ -1,1 +1,1 @@
-# Yii-ecommerce
+# Elliot Global Project

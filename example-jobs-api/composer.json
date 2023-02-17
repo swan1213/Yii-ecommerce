@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "jobs-sdk-php"
+    }
+  ],
+  "require": {
+    "smartling/jobs-sdk-php": "dev-master",
+    "smartling/api-sdk-php": "dev-2.0.0-g5"
+  }
+}
